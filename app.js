@@ -4,7 +4,7 @@ const router = express.Router();
 
 const assignRoutes = require("./src/routes")
 
-// Middlewares
+// Middleware
 app.use(express.json());
 // app.use(require('./middleware/auth.js'))
 
